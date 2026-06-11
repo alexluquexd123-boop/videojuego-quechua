@@ -1,0 +1,220 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 464,
+  height = 400,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "oceanset_inside",
+  music = "eduardo/dungeon_finished",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 56,
+  width = 384,
+  height = 304,
+  pattern = "20_20",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 24,
+  width = 8,
+  height = 32,
+  pattern = "59_4",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 24,
+  width = 16,
+  height = 32,
+  pattern = "60_3",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 24,
+  width = 8,
+  height = 32,
+  pattern = "58_4",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 24,
+  width = 224,
+  height = 32,
+  pattern = "cave_wall",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 24,
+  width = 32,
+  height = 32,
+  pattern = "cave_wall_1",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 56,
+  width = 32,
+  height = 320,
+  pattern = "cave_wall_2",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 360,
+  width = 32,
+  height = 32,
+  pattern = "cave_wall_3",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 360,
+  width = 160,
+  height = 32,
+  pattern = "cave_wall_4",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 360,
+  width = 32,
+  height = 32,
+  pattern = "cave_wall_5",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 184,
+  width = 32,
+  height = 192,
+  pattern = "cave_wall_6",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 24,
+  width = 32,
+  height = 32,
+  pattern = "cave_wall_7",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 24,
+  width = 224,
+  height = 32,
+  pattern = "cave_wall",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 56,
+  width = 32,
+  height = 224,
+  pattern = "cave_wall_6",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 104,
+  width = 32,
+  height = 16,
+  pattern = "55_3",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 120,
+  width = 32,
+  height = 8,
+  pattern = "56_3",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 96,
+  width = 32,
+  height = 8,
+  pattern = "54_3",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 360,
+  width = 192,
+  height = 32,
+  pattern = "cave_wall_4",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 360,
+  width = 16,
+  height = 32,
+  pattern = "52_3",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 360,
+  width = 8,
+  height = 32,
+  pattern = "50_4",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 360,
+  width = 8,
+  height = 32,
+  pattern = "51_4",
+}
+
+destination{
+  name = "entrada_sala_9",
+  layer = 0,
+  x = 32,
+  y = 117,
+  direction = 0,
+}
+
+teletransporter{
+  name = "llegada_secreta_nueve",
+  layer = 0,
+  x = 208,
+  y = 360,
+  width = 16,
+  height = 16,
+  destination_map = "sala_2",
+  destination = "llegada_secreta_nueve",
+  sound = "tongue",
+}
+

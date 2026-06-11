@@ -1,0 +1,182 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 384,
+  height = 320,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 56,
+  width = 288,
+  height = 192,
+  pattern = "20_20",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 24,
+  width = 128,
+  height = 32,
+  pattern = "cave_wall",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 24,
+  width = 32,
+  height = 32,
+  pattern = "cave_wall_1",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 56,
+  width = 32,
+  height = 192,
+  pattern = "cave_wall_2",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 248,
+  width = 32,
+  height = 32,
+  pattern = "cave_wall_3",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 248,
+  width = 128,
+  height = 32,
+  pattern = "cave_wall_4",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 248,
+  width = 32,
+  height = 32,
+  pattern = "cave_wall_5",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 56,
+  width = 32,
+  height = 192,
+  pattern = "cave_wall_6",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 24,
+  width = 32,
+  height = 32,
+  pattern = "cave_wall_7",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 24,
+  width = 128,
+  height = 32,
+  pattern = "cave_wall",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 248,
+  width = 128,
+  height = 32,
+  pattern = "cave_wall_4",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 248,
+  width = 16,
+  height = 32,
+  pattern = "52_3",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 248,
+  width = 8,
+  height = 32,
+  pattern = "50_4",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 248,
+  width = 8,
+  height = 32,
+  pattern = "51_4",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 24,
+  width = 8,
+  height = 32,
+  pattern = "124",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 24,
+  width = 8,
+  height = 32,
+  pattern = "123",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 24,
+  width = 16,
+  height = 24,
+  pattern = "125",
+}
+
+destination{
+  name = "entrada_sala_11",
+  layer = 0,
+  x = 192,
+  y = 261,
+  direction = 1,
+}
+
+teletransporter{
+  name = "entrada_boss",
+  layer = 0,
+  x = 184,
+  y = 40,
+  width = 16,
+  height = 16,
+  destination_map = "sala_boss",
+  destination = "entrada_boss",
+}
+

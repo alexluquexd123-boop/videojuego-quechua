@@ -1,0 +1,144 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 368,
+  height = 304,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 48,
+  width = 288,
+  height = 192,
+  pattern = "cave_ground_large",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 16,
+  width = 128,
+  height = 32,
+  pattern = "cave_wall",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 16,
+  width = 32,
+  height = 32,
+  pattern = "cave_wall_1",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 48,
+  width = 32,
+  height = 192,
+  pattern = "cave_wall_2",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 240,
+  width = 32,
+  height = 32,
+  pattern = "cave_wall_3",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 240,
+  width = 288,
+  height = 32,
+  pattern = "cave_wall_4",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 240,
+  width = 32,
+  height = 32,
+  pattern = "cave_wall_5",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 48,
+  width = 32,
+  height = 192,
+  pattern = "cave_wall_6",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 16,
+  width = 32,
+  height = 32,
+  pattern = "cave_wall_7",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 16,
+  width = 160,
+  height = 32,
+  pattern = "cave_wall",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "131_2",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 16,
+  width = 8,
+  height = 32,
+  pattern = "132_2",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 16,
+  width = 8,
+  height = 32,
+  pattern = "130_2",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 224,
+  width = 32,
+  height = 16,
+  pattern = "133_2",
+}
+
+destination{
+  name = "salida",
+  layer = 0,
+  x = 184,
+  y = 237,
+  direction = 1,
+}
+

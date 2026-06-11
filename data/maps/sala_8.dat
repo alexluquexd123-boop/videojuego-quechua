@@ -1,0 +1,191 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 368,
+  height = 296,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 56,
+  width = 288,
+  height = 192,
+  pattern = "20_20",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 24,
+  width = 128,
+  height = 32,
+  pattern = "cave_wall",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 24,
+  width = 32,
+  height = 32,
+  pattern = "cave_wall_1",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 56,
+  width = 32,
+  height = 96,
+  pattern = "cave_wall_2",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 248,
+  width = 32,
+  height = 32,
+  pattern = "cave_wall_3",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 248,
+  width = 288,
+  height = 32,
+  pattern = "cave_wall_4",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 248,
+  width = 32,
+  height = 32,
+  pattern = "cave_wall_5",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 184,
+  width = 32,
+  height = 64,
+  pattern = "cave_wall_6",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 24,
+  width = 32,
+  height = 32,
+  pattern = "cave_wall_7",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 24,
+  width = 160,
+  height = 32,
+  pattern = "cave_wall",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 56,
+  width = 32,
+  height = 96,
+  pattern = "cave_wall_6",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 152,
+  width = 32,
+  height = 8,
+  pattern = "54_3",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 176,
+  width = 32,
+  height = 8,
+  pattern = "56_3",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 160,
+  width = 32,
+  height = 16,
+  pattern = "55_3",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 184,
+  width = 32,
+  height = 64,
+  pattern = "cave_wall_2",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 152,
+  width = 32,
+  height = 8,
+  pattern = "54_4",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 176,
+  width = 32,
+  height = 8,
+  pattern = "56_4",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 160,
+  width = 32,
+  height = 16,
+  pattern = "55_4",
+}
+
+destination{
+  name = "entrada_sala_8",
+  layer = 0,
+  x = 32,
+  y = 173,
+  direction = 0,
+}
+
+teletransporter{
+  name = "entrada_sala_9",
+  layer = 0,
+  x = 328,
+  y = 160,
+  width = 16,
+  height = 16,
+  destination_map = "sala_9",
+  sound = "tongue",
+}
+

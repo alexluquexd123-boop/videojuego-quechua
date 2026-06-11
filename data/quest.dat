@@ -1,0 +1,26 @@
+quest{
+  solarus_version = "2.0",
+  write_dir = "3f04d0eb-9323-472d-a9ef-3fe17166fdbb",
+  title = "alex luque",
+  short_description = "jueego quechua al estilo rpg tipo zelda",
+  long_description = [[
+Un juego corto de aprox 30 minutos basado en la mitologia quechua con la jugabilidad de los zeldas clasicos,con graficos retros,y con una unica mazmorra]],
+  author = "alex luque",
+  quest_version = "1.0",
+  initial_release_date = "",
+  release_date = "",
+  website = "",
+  normal_quest_size = "320x240",
+  min_quest_size = "320x240",
+  max_quest_size = "320x240",
+  license = "",
+  languages = { "es", "en" },
+  min_players = 1,
+  max_players = 1,
+  genres = { "rpg" },
+  age = "all",
+  controls = 0,
+  dynamic_timestep = false,
+  subpixel_camera = false,
+}
+

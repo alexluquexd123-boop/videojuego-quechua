@@ -1,18 +1,18 @@
 properties{
   x = 0,
   y = 0,
-  width = 352,
+  width = 368,
   height = 256,
   min_layer = 0,
-  max_layer = 2,
+  max_layer = 1,
   tileset = "oceanset_inside",
 }
 
 tile{
   layer = 0,
-  x = 32,
+  x = 88,
   y = 32,
-  width = 288,
+  width = 240,
   height = 192,
   pattern = "20_20",
 }
@@ -74,15 +74,6 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 160,
-  width = 32,
-  height = 64,
-  pattern = "cave_wall_6",
-}
-
-tile{
-  layer = 0,
-  x = 0,
   y = 0,
   width = 32,
   height = 32,
@@ -96,15 +87,6 @@ tile{
   width = 128,
   height = 32,
   pattern = "cave_wall_4",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 32,
-  width = 32,
-  height = 96,
-  pattern = "cave_wall_6",
 }
 
 tile{
@@ -145,33 +127,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 0,
-  y = 152,
-  width = 32,
-  height = 8,
-  pattern = "56_3",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 136,
-  width = 32,
-  height = 16,
-  pattern = "55_3",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 128,
-  width = 32,
-  height = 8,
-  pattern = "54_3",
-}
-
-tile{
-  layer = 0,
   x = 320,
   y = 168,
   width = 32,
@@ -199,11 +154,103 @@ tile{
 
 tile{
   layer = 0,
-  x = 160,
-  y = 112,
+  x = 136,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "23",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "23",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "23",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 32,
+  width = 96,
+  height = 192,
+  pattern = "20_20",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 160,
+  width = 32,
+  height = 64,
+  pattern = "cave_wall_6",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 32,
+  width = 32,
+  height = 96,
+  pattern = "cave_wall_6",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 32,
+  width = 32,
+  height = 128,
+  pattern = "cave_wall_6",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 192,
   width = 32,
   height = 32,
-  pattern = "statue_1",
+  pattern = "cave_wall_6",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 168,
+  width = 32,
+  height = 16,
+  pattern = "63_2",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 160,
+  width = 32,
+  height = 8,
+  pattern = "61_2",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 184,
+  width = 32,
+  height = 8,
+  pattern = "62_2",
 }
 
 destination{
@@ -212,6 +259,8 @@ destination{
   x = 184,
   y = 221,
   direction = 1,
+  starting_location_mode = "yes",
+  default = true,
 }
 
 teletransporter{
@@ -228,7 +277,7 @@ teletransporter{
 teletransporter{
   name = "entrada_sala_3",
   layer = 0,
-  x = 16,
+  x = 0,
   y = 136,
   width = 16,
   height = 16,
@@ -245,5 +294,123 @@ destination{
   enabled_at_start = false,
   direction = 3,
   starting_location_mode = "yes",
+}
+
+block{
+  layer = 0,
+  x = 96,
+  y = -3,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 96,
+  y = -3,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 128,
+  y = 173,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = true,
+}
+
+block{
+  layer = 0,
+  x = 128,
+  y = 189,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+destructible{
+  layer = 0,
+  x = 72,
+  y = 221,
+  treasure_name = "heart",
+  sprite = "destructibles/vase",
+  destruction_sound = "lift",
+  can_be_cut = true,
+  can_regenerate = true,
+  damage_on_enemies = 0,
+}
+
+destructible{
+  layer = 0,
+  x = 8,
+  y = 141,
+  sprite = "destructibles/grass_dark_green",
+  destruction_sound = "door_open",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 8,
+  y = 157,
+  sprite = "destructibles/grass_dark_green",
+  destruction_sound = "door_open",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 24,
+  y = 141,
+  sprite = "destructibles/grass_dark_green",
+  destruction_sound = "door_open",
+  can_be_cut = true,
+  damage_on_enemies = 0,
+}
+
+destructible{
+  layer = 0,
+  x = 24,
+  y = 157,
+  sprite = "destructibles/grass_dark_green",
+  destruction_sound = "door_open",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 72,
+  y = 53,
+  sprite = "destructibles/vase",
+  destruction_sound = "running_obstacle",
+  can_be_cut = true,
+  can_regenerate = true,
+  damage_on_enemies = 0,
+}
+
+destructible{
+  layer = 0,
+  x = 40,
+  y = 53,
+  sprite = "destructibles/vase",
+  destruction_sound = "door_open",
+  can_be_cut = true,
+  can_regenerate = true,
+  damage_on_enemies = 0,
+}
+
+destructible{
+  layer = 0,
+  x = 40,
+  y = 221,
+  sprite = "destructibles/vase",
+  destruction_sound = "lift",
+  can_be_cut = true,
+  can_regenerate = true,
+  damage_on_enemies = 0,
 }
 

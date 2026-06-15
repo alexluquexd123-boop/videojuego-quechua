@@ -1,8 +1,8 @@
 properties{
   x = 0,
   y = 0,
-  width = 368,
-  height = 280,
+  width = 384,
+  height = 304,
   min_layer = 0,
   max_layer = 2,
   tileset = "oceanset_inside",
@@ -11,25 +11,25 @@ properties{
 tile{
   layer = 0,
   x = 32,
-  y = 48,
-  width = 288,
-  height = 192,
+  y = 16,
+  width = 320,
+  height = 224,
   pattern = "20_20",
 }
 
 tile{
   layer = 0,
   x = 192,
-  y = 16,
-  width = 128,
+  y = 0,
+  width = 160,
   height = 32,
   pattern = "cave_wall",
 }
 
 tile{
   layer = 0,
-  x = 320,
-  y = 16,
+  x = 336,
+  y = 0,
   width = 32,
   height = 32,
   pattern = "cave_wall_1",
@@ -37,16 +37,16 @@ tile{
 
 tile{
   layer = 0,
-  x = 320,
-  y = 176,
+  x = 336,
+  y = 144,
   width = 32,
-  height = 64,
+  height = 96,
   pattern = "cave_wall_2",
 }
 
 tile{
   layer = 0,
-  x = 320,
+  x = 336,
   y = 240,
   width = 32,
   height = 32,
@@ -57,7 +57,7 @@ tile{
   layer = 0,
   x = 32,
   y = 240,
-  width = 288,
+  width = 320,
   height = 32,
   pattern = "cave_wall_4",
 }
@@ -74,16 +74,16 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 176,
+  y = 144,
   width = 32,
-  height = 64,
+  height = 96,
   pattern = "cave_wall_6",
 }
 
 tile{
   layer = 0,
   x = 0,
-  y = 16,
+  y = 0,
   width = 32,
   height = 32,
   pattern = "cave_wall_7",
@@ -92,24 +92,24 @@ tile{
 tile{
   layer = 0,
   x = 32,
-  y = 16,
-  width = 160,
+  y = 0,
+  width = 192,
   height = 32,
   pattern = "cave_wall",
 }
 
 tile{
   layer = 0,
-  x = 320,
-  y = 48,
+  x = 336,
+  y = 16,
   width = 32,
-  height = 96,
+  height = 128,
   pattern = "cave_wall_2",
 }
 
 tile{
   layer = 0,
-  x = 320,
+  x = 336,
   y = 144,
   width = 32,
   height = 8,
@@ -118,7 +118,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 320,
+  x = 336,
   y = 168,
   width = 32,
   height = 8,
@@ -127,7 +127,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 320,
+  x = 336,
   y = 152,
   width = 32,
   height = 16,
@@ -137,9 +137,9 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 48,
+  y = 16,
   width = 32,
-  height = 96,
+  height = 128,
   pattern = "cave_wall_2",
 }
 
@@ -172,17 +172,80 @@ tile{
 
 tile{
   layer = 0,
-  x = 160,
-  y = 136,
+  x = 320,
+  y = 32,
+  width = 16,
+  height = 112,
+  pattern = "103",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 176,
   width = 32,
+  height = 64,
+  pattern = "103",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 160,
+  width = 32,
+  height = 80,
+  pattern = "103",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 32,
+  width = 48,
+  height = 80,
+  pattern = "103",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 32,
+  width = 48,
+  height = 160,
+  pattern = "103",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 144,
+  width = 32,
+  height = 96,
+  pattern = "103",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 80,
+  width = 80,
   height = 32,
-  pattern = "statue_5",
+  pattern = "35",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 80,
+  width = 16,
+  height = 32,
+  pattern = "35",
 }
 
 destination{
   name = "entrada_sala_4",
   layer = 0,
-  x = 328,
+  x = 344,
   y = 165,
   direction = 2,
 }
@@ -191,9 +254,27 @@ teletransporter{
   name = "entrada_sala_5",
   layer = 0,
   x = 16,
-  y = 152,
+  y = 136,
   width = 16,
-  height = 16,
+  height = 32,
   destination_map = "sala_5",
+}
+
+block{
+  layer = 0,
+  x = 120,
+  y = 109,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = -32,
+  y = 93,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
 }
 

@@ -1,8 +1,8 @@
 properties{
   x = 0,
   y = 0,
-  width = 368,
-  height = 296,
+  width = 680,
+  height = 360,
   min_layer = 0,
   max_layer = 2,
   tileset = "oceanset_inside",
@@ -10,26 +10,27 @@ properties{
 
 tile{
   layer = 0,
-  x = 40,
-  y = 56,
-  width = 288,
-  height = 192,
+  x = 8,
+  y = 8,
+  locked = true,
+  width = 656,
+  height = 320,
   pattern = "20_20",
 }
 
 tile{
   layer = 0,
-  x = 200,
-  y = 24,
-  width = 128,
+  x = 360,
+  y = 8,
+  width = 288,
   height = 32,
   pattern = "cave_wall",
 }
 
 tile{
   layer = 0,
-  x = 328,
-  y = 24,
+  x = 648,
+  y = 8,
   width = 32,
   height = 32,
   pattern = "cave_wall_1",
@@ -37,17 +38,17 @@ tile{
 
 tile{
   layer = 0,
-  x = 328,
-  y = 56,
+  x = 648,
+  y = 40,
   width = 32,
-  height = 96,
+  height = 128,
   pattern = "cave_wall_2",
 }
 
 tile{
   layer = 0,
-  x = 328,
-  y = 248,
+  x = 648,
+  y = 296,
   width = 32,
   height = 32,
   pattern = "cave_wall_3",
@@ -56,8 +57,8 @@ tile{
 tile{
   layer = 0,
   x = 40,
-  y = 248,
-  width = 288,
+  y = 296,
+  width = 608,
   height = 32,
   pattern = "cave_wall_4",
 }
@@ -65,7 +66,7 @@ tile{
 tile{
   layer = 0,
   x = 8,
-  y = 248,
+  y = 296,
   width = 32,
   height = 32,
   pattern = "cave_wall_5",
@@ -74,34 +75,7 @@ tile{
 tile{
   layer = 0,
   x = 8,
-  y = 184,
-  width = 32,
-  height = 64,
-  pattern = "cave_wall_6",
-}
-
-tile{
-  layer = 0,
-  x = 8,
-  y = 24,
-  width = 32,
-  height = 32,
-  pattern = "cave_wall_7",
-}
-
-tile{
-  layer = 0,
-  x = 40,
-  y = 24,
-  width = 160,
-  height = 32,
-  pattern = "cave_wall",
-}
-
-tile{
-  layer = 0,
-  x = 8,
-  y = 56,
+  y = 200,
   width = 32,
   height = 96,
   pattern = "cave_wall_6",
@@ -110,7 +84,34 @@ tile{
 tile{
   layer = 0,
   x = 8,
-  y = 152,
+  y = 8,
+  width = 32,
+  height = 32,
+  pattern = "cave_wall_7",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 8,
+  width = 320,
+  height = 32,
+  pattern = "cave_wall",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 40,
+  width = 32,
+  height = 128,
+  pattern = "cave_wall_6",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 168,
   width = 32,
   height = 8,
   pattern = "54_3",
@@ -119,7 +120,7 @@ tile{
 tile{
   layer = 0,
   x = 8,
-  y = 176,
+  y = 192,
   width = 32,
   height = 8,
   pattern = "56_3",
@@ -128,7 +129,7 @@ tile{
 tile{
   layer = 0,
   x = 8,
-  y = 160,
+  y = 176,
   width = 32,
   height = 16,
   pattern = "55_3",
@@ -136,17 +137,17 @@ tile{
 
 tile{
   layer = 0,
-  x = 328,
-  y = 184,
+  x = 648,
+  y = 200,
   width = 32,
-  height = 64,
+  height = 96,
   pattern = "cave_wall_2",
 }
 
 tile{
   layer = 0,
-  x = 328,
-  y = 152,
+  x = 648,
+  y = 168,
   width = 32,
   height = 8,
   pattern = "54_4",
@@ -154,8 +155,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 328,
-  y = 176,
+  x = 648,
+  y = 192,
   width = 32,
   height = 8,
   pattern = "56_4",
@@ -163,29 +164,1459 @@ tile{
 
 tile{
   layer = 0,
-  x = 328,
-  y = 160,
+  x = 648,
+  y = 176,
   width = 32,
   height = 16,
   pattern = "55_4",
 }
 
+tile{
+  layer = 0,
+  x = 104,
+  y = 56,
+  width = 16,
+  height = 32,
+  pattern = "47_3",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 72,
+  width = 16,
+  height = 32,
+  pattern = "35_8",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 88,
+  width = 16,
+  height = 32,
+  pattern = "35_8",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 104,
+  width = 16,
+  height = 32,
+  pattern = "35_8",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 120,
+  width = 16,
+  height = 32,
+  pattern = "35_8",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 120,
+  width = 16,
+  height = 32,
+  pattern = "35_8",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 136,
+  width = 16,
+  height = 32,
+  pattern = "35_8",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 152,
+  width = 16,
+  height = 32,
+  pattern = "35_8",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 168,
+  width = 16,
+  height = 32,
+  pattern = "35_8",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 176,
+  width = 16,
+  height = 32,
+  pattern = "35_8",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "35_8",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 208,
+  width = 16,
+  height = 32,
+  pattern = "35_8",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 224,
+  width = 16,
+  height = 32,
+  pattern = "35_8",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 240,
+  width = 16,
+  height = 32,
+  pattern = "35_8",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 256,
+  width = 16,
+  height = 32,
+  pattern = "35_8",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 264,
+  width = 16,
+  height = 32,
+  pattern = "47_3",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 168,
+  width = 32,
+  height = 16,
+  pattern = "castle_wall_front_center_bis",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "castle_wall_front_center_bis",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 72,
+  width = 48,
+  height = 16,
+  pattern = "castle_wall_front_center_bis",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = -40,
+  width = 16,
+  height = 16,
+  pattern = "castle_wall_front_center_bis",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 168,
+  width = 32,
+  height = 8,
+  pattern = "house_brickgrey_center",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 176,
+  width = 32,
+  height = 8,
+  pattern = "house_brickgrey_down",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 120,
+  width = 144,
+  height = 8,
+  pattern = "house_brickgrey_center",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 128,
+  width = 144,
+  height = 8,
+  pattern = "house_brickgrey_down",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 40,
+  width = 16,
+  height = 88,
+  pattern = "house_brickgrey_center",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "103",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "103",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "103",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 248,
+  width = 16,
+  height = 16,
+  pattern = "103",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 272,
+  width = 16,
+  height = 16,
+  pattern = "103",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "103",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "103",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "103",
+}
+
 destination{
   name = "entrada_sala_8",
   layer = 0,
-  x = 32,
-  y = 173,
+  x = 24,
+  y = 189,
   direction = 0,
 }
 
 teletransporter{
   name = "entrada_sala_9",
   layer = 0,
-  x = 328,
-  y = 160,
+  x = 656,
+  y = 176,
   width = 16,
   height = 16,
   destination_map = "sala_9",
   sound = "tongue",
+}
+
+block{
+  layer = 0,
+  x = 112,
+  y = 341,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 128,
+  y = 133,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 160,
+  y = 117,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 160,
+  y = 101,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 288,
+  y = 85,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 304,
+  y = 85,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 320,
+  y = 85,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 336,
+  y = 85,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 336,
+  y = 101,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 336,
+  y = 117,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 384,
+  y = 69,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 384,
+  y = 53,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 352,
+  y = 117,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 368,
+  y = 117,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 384,
+  y = 117,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 384,
+  y = 133,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 384,
+  y = 149,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 288,
+  y = 149,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 288,
+  y = 165,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 288,
+  y = 181,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 272,
+  y = 181,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 256,
+  y = 181,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 240,
+  y = 181,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 240,
+  y = 197,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 240,
+  y = 213,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 192,
+  y = 149,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 192,
+  y = 165,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 192,
+  y = 181,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 240,
+  y = 229,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 224,
+  y = 229,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 208,
+  y = 229,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 192,
+  y = 229,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 120,
+  y = 405,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 176,
+  y = 229,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 160,
+  y = 229,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 288,
+  y = 229,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 288,
+  y = 245,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 288,
+  y = 261,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 288,
+  y = 277,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 288,
+  y = 293,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 384,
+  y = 165,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+enemy{
+  layer = 0,
+  x = 256,
+  y = 253,
+  direction = 0,
+  breed = "skelfos",
+}
+
+enemy{
+  layer = 0,
+  x = 256,
+  y = 293,
+  direction = 0,
+  breed = "skelfos",
+}
+
+enemy{
+  layer = 0,
+  x = 168,
+  y = 285,
+  direction = 0,
+  breed = "skelfos",
+}
+
+block{
+  layer = 0,
+  x = 400,
+  y = 165,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 416,
+  y = 165,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 432,
+  y = 117,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 432,
+  y = 101,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 432,
+  y = 85,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 448,
+  y = 85,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 464,
+  y = 85,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 480,
+  y = 101,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 480,
+  y = 85,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 480,
+  y = 117,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 480,
+  y = 133,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 480,
+  y = 149,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 480,
+  y = 165,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 464,
+  y = 165,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 448,
+  y = 165,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 432,
+  y = 165,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 432,
+  y = 181,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 432,
+  y = 197,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 432,
+  y = 213,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 416,
+  y = 213,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 400,
+  y = 213,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 384,
+  y = 213,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 368,
+  y = 213,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 384,
+  y = 229,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 384,
+  y = 245,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 384,
+  y = 261,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 384,
+  y = 277,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 384,
+  y = 293,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 352,
+  y = 213,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 336,
+  y = 213,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 336,
+  y = 197,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 336,
+  y = 181,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 336,
+  y = 165,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 592,
+  y = 117,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 496,
+  y = 85,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 512,
+  y = 85,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 528,
+  y = 85,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 544,
+  y = 85,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 608,
+  y = 85,
+  sprite = "entities/block",
+  pushable = false,
+  pullable = true,
+  max_moves = 1,
+}
+
+block{
+  layer = 0,
+  x = 592,
+  y = 53,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 592,
+  y = 101,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 640,
+  y = 85,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 624,
+  y = 85,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 592,
+  y = 69,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 592,
+  y = 133,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 592,
+  y = 149,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 592,
+  y = 165,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 592,
+  y = 181,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 592,
+  y = 197,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 592,
+  y = 213,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 592,
+  y = 229,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 592,
+  y = 245,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 592,
+  y = 261,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 544,
+  y = 261,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 528,
+  y = 261,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 512,
+  y = 261,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 544,
+  y = 213,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 576,
+  y = 133,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 560,
+  y = 133,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 544,
+  y = 133,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 544,
+  y = 149,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 544,
+  y = 165,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 560,
+  y = 213,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 576,
+  y = 213,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 528,
+  y = 213,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 512,
+  y = 213,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 496,
+  y = 213,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 480,
+  y = 213,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 544,
+  y = 293,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 544,
+  y = 277,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 496,
+  y = 261,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 480,
+  y = 261,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 464,
+  y = 261,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 448,
+  y = 261,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 432,
+  y = 261,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+destructible{
+  layer = 0,
+  x = 592,
+  y = 85,
+  sprite = "blocks/block_red",
+  destruction_sound = "boss_hurt",
+  weight = -1,
+  can_explode = true,
+  damage_on_enemies = 0,
+}
+
+destructible{
+  layer = 0,
+  x = 576,
+  y = 101,
+  sprite = "blocks/block_red",
+  destruction_sound = "boss_hurt",
+  weight = -1,
+  can_explode = true,
+  damage_on_enemies = 0,
+}
+
+destructible{
+  layer = 0,
+  x = 560,
+  y = 101,
+  sprite = "blocks/block_red",
+  destruction_sound = "boss_hurt",
+  weight = -1,
+  can_explode = true,
+  damage_on_enemies = 0,
+}
+
+destructible{
+  layer = 0,
+  x = 336,
+  y = 133,
+  sprite = "blocks/block_red",
+  destruction_sound = "boss_hurt",
+  weight = -1,
+  can_explode = true,
+  damage_on_enemies = 0,
+}
+
+destructible{
+  layer = 0,
+  x = 336,
+  y = 149,
+  sprite = "blocks/block_red",
+  destruction_sound = "boss_hurt",
+  weight = -1,
+  can_explode = true,
+  damage_on_enemies = 0,
 }
 

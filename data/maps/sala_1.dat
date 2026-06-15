@@ -152,11 +152,21 @@ tile{
   pattern = "51_3",
 }
 
+tile{
+  layer = 0,
+  x = 192,
+  y = 152,
+  width = 32,
+  height = 32,
+  pattern = "statue_3",
+}
+
 destination{
   name = "destination",
   layer = 0,
   x = 200,
   y = 237,
+  enabled_at_start = false,
   direction = 1,
 }
 

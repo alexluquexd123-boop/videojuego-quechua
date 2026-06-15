@@ -161,6 +161,51 @@ tile{
   pattern = "50_3",
 }
 
+tile{
+  layer = 0,
+  x = 280,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "103",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "103",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "103",
+}
+
+tile{
+  layer = 0,
+  x = -56,
+  y = 160,
+  width = 16,
+  height = 32,
+  pattern = "39_7",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 176,
+  width = 80,
+  height = 32,
+  pattern = "35_8",
+}
+
 destination{
   name = "entrada_sala_6",
   layer = 0,
@@ -177,5 +222,175 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "sala_7",
+}
+
+block{
+  layer = 0,
+  x = 272,
+  y = 61,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 272,
+  y = 77,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 272,
+  y = 93,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 48,
+  y = 109,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 64,
+  y = 109,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 80,
+  y = 109,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = 96,
+  y = 109,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+block{
+  layer = 0,
+  x = -32,
+  y = 117,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+}
+
+destructible{
+  layer = 0,
+  x = 112,
+  y = 93,
+  sprite = "blocks/block_red",
+  destruction_sound = "cat",
+  weight = -1,
+  can_explode = true,
+  damage_on_enemies = 0,
+}
+
+enemy{
+  layer = 0,
+  x = 176,
+  y = 181,
+  direction = 0,
+  breed = "skelfos",
+  treasure_name = "heart",
+}
+
+enemy{
+  layer = 0,
+  x = 240,
+  y = 181,
+  direction = 2,
+  breed = "goblin_green",
+  treasure_name = "heart",
+}
+
+destructible{
+  layer = 0,
+  x = 112,
+  y = 77,
+  sprite = "blocks/block_red",
+  destruction_sound = "cat",
+  weight = -1,
+  can_explode = true,
+  damage_on_enemies = 0,
+}
+
+destructible{
+  layer = 0,
+  x = 112,
+  y = 61,
+  sprite = "blocks/block_red",
+  destruction_sound = "cat",
+  weight = -1,
+  can_explode = true,
+  damage_on_enemies = 0,
+}
+
+destructible{
+  layer = 0,
+  x = 112,
+  y = 109,
+  sprite = "blocks/block_red",
+  destruction_sound = "cat",
+  weight = -1,
+  can_explode = true,
+  damage_on_enemies = 0,
+}
+
+chest{
+  layer = 0,
+  x = 72,
+  y = 77,
+  sprite = "entities/chest",
+}
+
+switch{
+  layer = 0,
+  x = 296,
+  y = 216,
+  subtype = "walkable",
+  sprite = "switches/switch_1",
+  sound = "mouse",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+block{
+  layer = 0,
+  x = 256,
+  y = 221,
+  sprite = "entities/block",
+  pushable = false,
+  pullable = true,
+}
+
+block{
+  layer = 0,
+  x = 256,
+  y = 237,
+  sprite = "entities/block",
+  pushable = false,
+  pullable = true,
 }
 

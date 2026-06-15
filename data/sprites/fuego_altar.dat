@@ -1,0 +1,6 @@
+animation{
+  name = "fuego_altar (copia)",
+  src_image = "entities/explosion.png",
+  directions = {
+  },
+}

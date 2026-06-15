@@ -15,7 +15,7 @@ map{ id = "sala_boss" }
 
 tileset{ id = "castle", description = "Castle" }
 tileset{ id = "house", description = "House" }
-tileset{ id = "oceanset_inside", description = "Oceanset-Inside" }
+tileset{ id = "oceanset_inside", description = "pinchos_puente" }
 tileset{ id = "oceanset_outside", description = "Oceanset-Outside" }
 tileset{ id = "outside", description = "Light Overworld" }
 
@@ -110,10 +110,12 @@ sprite{ id = "entities/items", description = "Items" }
 sprite{ id = "entities/rupee_icon", description = "Money icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
 sprite{ id = "entities/star", description = "Star" }
+sprite{ id = "fuego_altar" }
 sprite{ id = "ground_effects/fall_on_hole", description = "Fall on hole" }
 sprite{ id = "ground_effects/lava_splash", description = "Lava splash" }
 sprite{ id = "ground_effects/leaves", description = "Leaves" }
 sprite{ id = "ground_effects/water_splash", description = "Water splash" }
+sprite{ id = "hero/chullo_hero" }
 sprite{ id = "hero/ground1", description = "Grass under hero" }
 sprite{ id = "hero/ground2", description = "Shallow water under hero" }
 sprite{ id = "hero/shield_1_above", description = "Shield 1 Above" }

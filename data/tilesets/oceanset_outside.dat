@@ -7402,18 +7402,19 @@ tile_pattern{
 
 tile_pattern{
   id = "waterfall",
-  ground = "wall",
+  ground = "shallow_water",
   default_layer = 0,
   x = { 0, 16, 32 },
   y = { 160, 160, 160 },
   width = 16,
   height = 16,
   frame_delay = 250,
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
   id = "waterfall_base_deep",
-  ground = "empty",
+  ground = "shallow_water",
   default_layer = 0,
   x = { 0, 16, 32 },
   y = { 176, 176, 176 },
@@ -7439,14 +7440,13 @@ tile_pattern{
 
 tile_pattern{
   id = "waterfall_top",
-  ground = "wall",
+  ground = "shallow_water",
   default_layer = 0,
   x = { 0, 16, 32 },
   y = { 144, 144, 144 },
   width = 16,
   height = 16,
   frame_delay = 250,
-  repeat_mode = "horizontal",
 }
 
 tile_pattern{

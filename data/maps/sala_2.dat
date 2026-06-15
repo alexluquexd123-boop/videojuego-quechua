@@ -12,6 +12,7 @@ tile{
   layer = 0,
   x = 88,
   y = 32,
+  locked = true,
   width = 240,
   height = 192,
   pattern = "20_20",
@@ -411,6 +412,54 @@ destructible{
   destruction_sound = "lift",
   can_be_cut = true,
   can_regenerate = true,
+  damage_on_enemies = 0,
+}
+
+destructible{
+  name = "bloque_destructible",
+  layer = 0,
+  x = 312,
+  y = 157,
+  sprite = "blocks/block_red",
+  destruction_sound = "door_open",
+  weight = -1,
+  can_explode = true,
+  damage_on_enemies = 0,
+}
+
+destructible{
+  name = "bloque_destructible_2",
+  layer = 0,
+  x = 296,
+  y = 173,
+  sprite = "blocks/block_red",
+  destruction_sound = "door_open",
+  weight = -1,
+  can_explode = true,
+  damage_on_enemies = 0,
+}
+
+destructible{
+  name = "bloque_destructible_3",
+  layer = 0,
+  x = 296,
+  y = 189,
+  sprite = "blocks/block_red",
+  destruction_sound = "door_open",
+  weight = -1,
+  can_explode = true,
+  damage_on_enemies = 0,
+}
+
+destructible{
+  name = "bloque_destructible_4",
+  layer = 0,
+  x = 312,
+  y = 205,
+  sprite = "blocks/block_red",
+  destruction_sound = "door_open",
+  weight = -1,
+  can_explode = true,
   damage_on_enemies = 0,
 }
 

@@ -1053,6 +1053,156 @@ switch{
   inactivate_when_leaving = false,
 }
 
+dynamic_tile{
+  name = "pinchos_puente_9",
+  layer = 0,
+  x = 144,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "136_14",
+}
+
+dynamic_tile{
+  name = "pinchos_puente_10",
+  layer = 0,
+  x = 152,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "136_14",
+}
+
+dynamic_tile{
+  name = "pinchos_puente_13",
+  layer = 0,
+  x = 160,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "136_14",
+}
+
+dynamic_tile{
+  name = "pinchos_puente_12",
+  layer = 0,
+  x = 176,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "136_14",
+}
+
+dynamic_tile{
+  name = "pinchos_puente_11",
+  layer = 0,
+  x = 192,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "136_14",
+}
+
+dynamic_tile{
+  name = "pinchos_puente_8",
+  layer = 0,
+  x = 200,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "136_14",
+}
+
+dynamic_tile{
+  name = "pinchos_puente_7",
+  layer = 0,
+  x = 208,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "136_14",
+}
+
+dynamic_tile{
+  name = "pinchos_puente_14",
+  layer = 0,
+  x = 376,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "136_14",
+}
+
+dynamic_tile{
+  name = "pinchos_puente_15",
+  layer = 0,
+  x = 392,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "136_14",
+}
+
+dynamic_tile{
+  name = "pinchos_puente_5",
+  layer = 0,
+  x = 240,
+  y = 344,
+  width = 16,
+  height = 16,
+  pattern = "136_14",
+}
+
+dynamic_tile{
+  name = "pinchos_puente_6",
+  layer = 0,
+  x = 232,
+  y = 336,
+  width = 16,
+  height = 16,
+  pattern = "136_14",
+}
+
+dynamic_tile{
+  name = "pinchos_puente_4",
+  layer = 0,
+  x = 216,
+  y = 328,
+  width = 16,
+  height = 16,
+  pattern = "136_14",
+}
+
+dynamic_tile{
+  name = "pinchos_puente_3",
+  layer = 0,
+  x = 200,
+  y = 328,
+  width = 16,
+  height = 16,
+  pattern = "136_14",
+}
+
+dynamic_tile{
+  name = "pinchos_puente_2",
+  layer = 0,
+  x = 184,
+  y = 336,
+  width = 16,
+  height = 16,
+  pattern = "136_14",
+}
+
+dynamic_tile{
+  name = "pinchos_puente_1",
+  layer = 0,
+  x = 176,
+  y = 344,
+  width = 16,
+  height = 16,
+  pattern = "136_14",
+}
+
 tile{
   layer = 1,
   x = 424,
@@ -1119,155 +1269,5 @@ tile{
   width = 32,
   height = 160,
   pattern = "cave_wall_2",
-}
-
-dynamic_tile{
-  name = "pinchos_puente_1",
-  layer = 1,
-  x = 176,
-  y = 344,
-  width = 16,
-  height = 16,
-  pattern = "136_14",
-}
-
-dynamic_tile{
-  name = "pinchos_puente_2",
-  layer = 1,
-  x = 184,
-  y = 336,
-  width = 16,
-  height = 16,
-  pattern = "136_14",
-}
-
-dynamic_tile{
-  name = "pinchos_puente_3",
-  layer = 1,
-  x = 200,
-  y = 328,
-  width = 16,
-  height = 16,
-  pattern = "136_14",
-}
-
-dynamic_tile{
-  name = "pinchos_puente_4",
-  layer = 1,
-  x = 216,
-  y = 328,
-  width = 16,
-  height = 16,
-  pattern = "136_14",
-}
-
-dynamic_tile{
-  name = "pinchos_puente_5",
-  layer = 1,
-  x = 240,
-  y = 344,
-  width = 16,
-  height = 16,
-  pattern = "136_14",
-}
-
-dynamic_tile{
-  name = "pinchos_puente_6",
-  layer = 1,
-  x = 232,
-  y = 336,
-  width = 16,
-  height = 16,
-  pattern = "136_14",
-}
-
-dynamic_tile{
-  name = "pinchos_puente_7",
-  layer = 1,
-  x = 208,
-  y = 184,
-  width = 16,
-  height = 16,
-  pattern = "136_14",
-}
-
-dynamic_tile{
-  name = "pinchos_puente_8",
-  layer = 1,
-  x = 200,
-  y = 176,
-  width = 16,
-  height = 16,
-  pattern = "136_14",
-}
-
-dynamic_tile{
-  name = "pinchos_puente_9",
-  layer = 1,
-  x = 144,
-  y = 184,
-  width = 16,
-  height = 16,
-  pattern = "136_14",
-}
-
-dynamic_tile{
-  name = "pinchos_puente_10",
-  layer = 1,
-  x = 152,
-  y = 176,
-  width = 16,
-  height = 16,
-  pattern = "136_14",
-}
-
-dynamic_tile{
-  name = "pinchos_puente_11",
-  layer = 1,
-  x = 192,
-  y = 168,
-  width = 16,
-  height = 16,
-  pattern = "136_14",
-}
-
-dynamic_tile{
-  name = "pinchos_puente_12",
-  layer = 1,
-  x = 176,
-  y = 168,
-  width = 16,
-  height = 16,
-  pattern = "136_14",
-}
-
-dynamic_tile{
-  name = "pinchos_puente_13",
-  layer = 1,
-  x = 160,
-  y = 168,
-  width = 16,
-  height = 16,
-  pattern = "136_14",
-}
-
-dynamic_tile{
-  name = "pinchos_puente_14",
-  layer = 1,
-  x = 376,
-  y = 184,
-  width = 16,
-  height = 16,
-  pattern = "136_14",
-}
-
-dynamic_tile{
-  name = "pinchos_puente_15",
-  layer = 1,
-  x = 392,
-  y = 184,
-  width = 16,
-  height = 16,
-  pattern = "136_14",
 }
 

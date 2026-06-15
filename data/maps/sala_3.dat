@@ -314,16 +314,6 @@ tile{
   pattern = "hole_edge_3",
 }
 
-tile{
-  layer = 0,
-  x = 80,
-  y = 96,
-  width = 16,
-  height = 16,
-  pattern = "233_2",
-  tileset = "oceanset_outside",
-}
-
 destination{
   name = "entrada_sala_3",
   layer = 0,
@@ -549,6 +539,29 @@ sensor{
   y = 125,
   width = 16,
   height = 16,
+}
+
+dynamic_tile{
+  name = "boton_altar",
+  layer = 0,
+  x = 80,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "233_2",
+  tileset = "oceanset_outside",
+}
+
+dynamic_tile{
+  name = "fuego_spray",
+  layer = 0,
+  x = 80,
+  y = 96,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  pattern = "232_2",
+  tileset = "oceanset_outside",
 }
 
 pickable{

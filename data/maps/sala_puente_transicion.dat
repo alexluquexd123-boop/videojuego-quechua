@@ -1,0 +1,328 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "castle",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 0,
+  width = 128,
+  height = 240,
+  pattern = "Hole_center",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 128,
+  height = 240,
+  pattern = "Hole_center",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = -24,
+  width = 320,
+  height = 32,
+  pattern = "block_wall_18",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 0,
+  width = 48,
+  height = 240,
+  pattern = "cave_ground",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 0,
+  width = 8,
+  height = 16,
+  pattern = "51",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 16,
+  width = 8,
+  height = 208,
+  pattern = "53",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 0,
+  width = 8,
+  height = 16,
+  pattern = "51",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 16,
+  width = 8,
+  height = 208,
+  pattern = "53",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 8,
+  width = 64,
+  height = 8,
+  pattern = "castle_entrance_down",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = -8,
+  width = 16,
+  height = 16,
+  pattern = "castle_entrance_center",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = -24,
+  width = 24,
+  height = 32,
+  pattern = "castle_entrance_left",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = -24,
+  width = 16,
+  height = 16,
+  pattern = "castle_entrance_up",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = -24,
+  width = 24,
+  height = 32,
+  pattern = "castle_entrance_right",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = -32,
+  y = -24,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_22",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = -24,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_17",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 8,
+  width = 32,
+  height = 224,
+  pattern = "block_wall_21",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 232,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_14",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 232,
+  width = 128,
+  height = 32,
+  pattern = "block_wall_13",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = -32,
+  y = 8,
+  width = 32,
+  height = 224,
+  pattern = "block_wall_15",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = -32,
+  y = 232,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_16",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 232,
+  width = 192,
+  height = 32,
+  pattern = "block_wall_13",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = -64,
+  y = 288,
+  width = 32,
+  height = 40,
+  pattern = "dungeon_entrance_evilspikes_left",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = -32,
+  y = 304,
+  width = 16,
+  height = 24,
+  pattern = "dungeon_entrance_evilspikes_center",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = -32,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = "dungeon_entrance_evilspikes_up",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = -16,
+  y = 288,
+  width = 32,
+  height = 40,
+  pattern = "dungeon_entrance_evilspikes_right",
+  tileset = "outside",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 232,
+  width = 8,
+  height = 32,
+  pattern = "51_9",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 232,
+  width = 8,
+  height = 32,
+  pattern = "50_9",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 232,
+  width = 16,
+  height = 32,
+  pattern = "52_10",
+  tileset = "oceanset_inside",
+}
+
+destination{
+  name = "entrada_puente",
+  layer = 0,
+  x = 160,
+  y = 237,
+  direction = 1,
+}
+
+teletransporter{
+  name = "entrada_boss",
+  layer = 0,
+  x = 152,
+  y = 0,
+  width = 16,
+  height = 16,
+  destination_map = "sala_boss",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 224,
+  width = 8,
+  height = 16,
+  pattern = "56",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 224,
+  width = 8,
+  height = 16,
+  pattern = "56",
+  tileset = "oceanset_outside",
+}
+

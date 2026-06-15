@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "oceanset_inside",
+  music = "eduardo/boss",
 }
 
 tile{
@@ -125,10 +126,20 @@ tile{
   pattern = "cave_wall",
 }
 
+tile{
+  layer = 0,
+  x = 176,
+  y = 128,
+  width = 16,
+  height = 24,
+  pattern = "39",
+  tileset = "castle",
+}
+
 destination{
   name = "entrada_boss",
   layer = 0,
-  x = 176,
+  x = 184,
   y = 237,
   direction = 1,
 }

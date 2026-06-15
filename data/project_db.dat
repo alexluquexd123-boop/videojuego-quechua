@@ -12,6 +12,7 @@ map{ id = "sala_7" }
 map{ id = "sala_8" }
 map{ id = "sala_9" }
 map{ id = "sala_boss" }
+map{ id = "sala_puente_transicion" }
 
 tileset{ id = "castle", description = "Castle" }
 tileset{ id = "house", description = "House" }
@@ -304,6 +305,7 @@ item{ id = "gem", description = "Gem (x1 / x5 / x20 / x50 / x300)" }
 item{ id = "heart", description = "Heart" }
 item{ id = "money_bag", description = "Money bag (small / large / huge)" }
 item{ id = "sword", description = "Sword" }
+item{ id = "torch" }
 item{ id = "tunic", description = "Tunic (red / green / purple)" }
 
 enemy{ id = "chameleon", description = "Chameleon" }

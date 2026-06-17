@@ -463,3 +463,12 @@ destructible{
   damage_on_enemies = 0,
 }
 
+custom_entity{
+  layer = 0,
+  x = 304,
+  y = 125,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+

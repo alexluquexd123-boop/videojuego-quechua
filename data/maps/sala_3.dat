@@ -317,7 +317,7 @@ tile{
 destination{
   name = "entrada_sala_3",
   layer = 0,
-  x = 376,
+  x = 368,
   y = 221,
   direction = 2,
 }
@@ -562,6 +562,50 @@ dynamic_tile{
   height = 16,
   pattern = "232_2",
   tileset = "oceanset_outside",
+}
+
+dynamic_tile{
+  name = "tronco_1",
+  layer = 0,
+  x = 0,
+  y = 216,
+  width = 32,
+  height = 16,
+  pattern = "72_2",
+  tileset = "oceanset_inside",
+}
+
+dynamic_tile{
+  name = "tronco_2",
+  layer = 0,
+  x = 0,
+  y = 200,
+  width = 32,
+  height = 16,
+  pattern = "72_2",
+  tileset = "oceanset_inside",
+}
+
+dynamic_tile{
+  name = "tronco_4",
+  layer = 0,
+  x = 368,
+  y = 200,
+  enabled_at_start = false,
+  width = 32,
+  height = 16,
+  pattern = "72",
+}
+
+dynamic_tile{
+  name = "tronco_3",
+  layer = 0,
+  x = 368,
+  y = 216,
+  enabled_at_start = false,
+  width = 32,
+  height = 16,
+  pattern = "72",
 }
 
 pickable{

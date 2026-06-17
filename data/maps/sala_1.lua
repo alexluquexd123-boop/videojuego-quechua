@@ -25,7 +25,7 @@ function map:on_started()
     end
 
     -- 🚀 EL TELEPORT: Espera 50 milisegundos y te manda directo a la sala 2
-    hero:teleport("sala_3", "entrada_sala_3") --cambiar el nombre  de la sala y el del teleport azul--
+    hero:teleport("sala_5", "entrada_sala_5") --cambiar el nombre  de la sala y el del teleport azul--
   end)
 end
 
